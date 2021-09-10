@@ -1,3 +1,4 @@
 node_modules
-dist
-data/*
+*.csv
+*.json
+index.js
