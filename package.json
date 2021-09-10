@@ -1,12 +1,18 @@
 {
-  "name": "csvToJson",
+  "name": "csv-to-json",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "start": "yarn tsc && node index.js"
+  },
   "dependencies": {
-    "convert-csv-to-json": "^1.3.1"
+    "convert-csv-to-json": "^1.3.1",
+    "inquirer": "^8.1.2",
+    "typescript": "^4.4.2"
   },
   "devDependencies": {
+    "@types/inquirer": "^8.1.1",
     "@types/node": "^16.7.8"
   }
 }
