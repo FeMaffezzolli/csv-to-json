@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "yarn tsc && node index.js"
+    "start": "yarn tsc && node ./dist/index.js"
   },
   "dependencies": {
     "convert-csv-to-json": "^1.3.1",
